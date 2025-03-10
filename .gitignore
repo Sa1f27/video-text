@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+envvtt/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Django migrations
+*/migrations/*
+
+# Ignore secrets and environment variables
+.env
+config/settings/local.py
+config/settings/.env
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled code
+*.so
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Node.js dependencies (if using frontend in React/Vue)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker files (if using Docker)
+docker-compose.override.yml
+
+# AI/ML-related files (if using ML models)
+*.h5
+*.pkl
+*.joblib
+__results__.json
+
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.webm
+*.m4v
